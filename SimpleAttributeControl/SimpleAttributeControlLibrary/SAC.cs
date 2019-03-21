@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace SimpleAttributeControlLibrary
 {
    
-    public class CustomControl1 : Control
+    public class SAC : Control
     {
-        static CustomControl1()
+        static SAC()
         {
-            DefaultStyleKeyProperty.OverrideMetadata(typeof(CustomControl1), new FrameworkPropertyMetadata(typeof(CustomControl1)));
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(SAC), new FrameworkPropertyMetadata(typeof(SAC)));
         }
     }
 }
