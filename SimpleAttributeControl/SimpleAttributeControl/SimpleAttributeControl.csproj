@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleAttributeControlLibrary\SimpleAttributeControlLibrary.csproj">
+      <Project>{4f5d1afb-1935-46a2-b214-269a39fe66a4}</Project>
+      <Name>SimpleAttributeControlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
